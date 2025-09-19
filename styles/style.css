@@ -3,6 +3,9 @@
   background-color: #fff2ef;
   padding: 30px;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 body {
@@ -64,7 +67,7 @@ button:hover {
 }
 
 .delBtn {
-  background-color: #E62727;
+  background-color: #e62727;
 }
 
 .delBtn:hover {
