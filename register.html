@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h2 id="registerTitle" data-key="title">Register</h2>
+
+    <input type="text" id="username" data-key="username" placeholder="Username">
+    <input type="email" id="email" data-key="email" placeholder="Email">
+    <input type="password" id="password" data-key="password" placeholder="Password">
+    <input type="password" id="confirmPassword" data-key="confirm" placeholder="Confirm Password">
+
+    
+    <button id="registerBtn" data-key="registerBtn">Register</button>
+
+
+    <p id="message"></p>
+    <button id="toggleLang" type="button">عربي / EN</button>
+
+    <p data-key="haveAccount">Already have account? <a href="login.html" data-key="loginLink">Login</a></p>
+  </div>
+
+  <script src="scripts/register.js"></script>
+</body>
+</html>

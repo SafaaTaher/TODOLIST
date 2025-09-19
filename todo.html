@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2 id="title" data-key="todotitle">To-Do List</h2>
+      <div class="tb">
+        <input
+          type="text"
+          id="todoInput"
+          data-key="input"
+          placeholder="Add a task"
+        />
+        <button id="addBtn" data-key="add">Add</button>
+      </div>
+      <ul id="todoList"></ul>
+
+      <button id="toggleLang" data-key="delete">عربي / EN</button>
+    </div>
+
+    <script src="scripts/todo.js"></script>
+  </body>
+</html>

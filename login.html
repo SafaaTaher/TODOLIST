@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Login</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2 id="title" data-key="loginTitle">Login</h2>
+
+      <input type="email" id="email" data-key="email" placeholder="Email" />
+      <input
+        type="password"
+        id="password"
+        data-key="password"
+        placeholder="Password"
+      />
+      <button id="loginBtn" data-key="loginBtn">Login</button>
+      <p id="message"></p>
+      <button id="toggleLang">عربي / EN</button>
+      <p>
+        <span data-key="noAccount">Don't have an account?</span>
+        <a href="register.html" data-key="registerLink">Register</a>
+      </p>
+    </div>
+
+    <script src="scripts/login.js"></script>
+  </body>
+</html>

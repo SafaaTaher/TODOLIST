@@ -1,0 +1,26 @@
+{
+  "loginTitle": "Login",
+  "email": "Email",
+  "password": "Password",
+  "loginBtn": "Login",
+  "noAccount": "Don't have an account?",
+  "registerLink": "Register",
+
+  "registerTitle": "Register",
+  "username": "Username",
+  "confirm": "Confirm Password",
+  "registerBtn": "Register",
+  "exists": "User already exists!",
+  "success": "Registered successfully!",
+  "fill": "Please fill in all fields",
+  "mismatch": "Passwords do not match",
+
+  "add" : "ADD Task",
+  "delete" : "Delete",
+  "edit": "Edit",
+  "todotitle":"To-Do List",
+  "input": "Write a task",
+
+  "notFound": "User not found!",
+  "wrong": "Wrong password!"
+}

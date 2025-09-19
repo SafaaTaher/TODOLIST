@@ -1,0 +1,103 @@
+.container {
+  width: 600px;
+  background-color: #fff2ef;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #5d688a;
+}
+
+.tb {
+  display: flex;
+}
+
+#message {
+  color: red;
+}
+
+input {
+  width: 95%;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #ffdbb6;
+  border: none;
+  border-radius: 10;
+  outline: none;
+}
+
+input:focus {
+  border-color: #ffdbb6;
+  box-shadow: 0 0 5px rgba(75, 136, 226, 0.5);
+}
+
+button {
+  cursor: pointer;
+  display: block;
+  background: #5d688a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+button:hover {
+  background-color: #7886b3;
+}
+
+.tb button {
+  width: 20%;
+  margin-left: 1rem;
+}
+
+.todo-item button {
+  width: 20%;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
+.delBtn {
+  background-color: #E62727;
+}
+
+.delBtn:hover {
+  background-color: #992f2fd0;
+}
+
+.editBtn {
+  background-color: #4cb0f3;
+}
+
+.editBtn:hover {
+  background-color: #2f7aaccc;
+}
+
+h2 {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  background: #eee;
+  margin: 5px 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 1%;
+}
+
+li span {
+  margin-right: auto;
+}
