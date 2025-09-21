@@ -5,7 +5,7 @@
   "loginBtn": "Login",
   "noAccount": "Don't have an account?",
   "registerLink": "Register",
-
+  "loginLink":"Login",
   "registerTitle": "Register",
   "username": "Username",
   "confirm": "Confirm Password",

@@ -8,7 +8,7 @@
 
 <body>
   <div class="container">
-    <h2 id="registerTitle" data-key="title">Register</h2>
+    <h2 id="registerTitle" data-key="registerTitle">Register</h2>
 
     <input type="text" id="username" data-key="username" placeholder="Username">
     <input type="email" id="email" data-key="email" placeholder="Email">
@@ -22,7 +22,10 @@
     <p id="message"></p>
     <button id="toggleLang" type="button">عربي / EN</button>
 
-    <p data-key="haveAccount">Already have account? <a href="login.html" data-key="loginLink">Login</a></p>
+    <p>
+        <span data-key="haveAccount">Already have account? </span>
+        <a href="login.html" data-key="loginLink">Login</a>
+    </p>
   </div>
 
   <script src="scripts/register.js"></script>

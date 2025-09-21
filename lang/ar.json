@@ -5,6 +5,8 @@
   "loginBtn": "تسجيل الدخول",
   "noAccount": "ليس لديك حساب؟",
   "registerLink":  "سجل الآن",
+  "haveAccount" :"لديك حساب بالفعل؟",
+  "loginLink" :"تسجيل الدخول",
 
   "registerTitle": "تسجيل",
   "username": "اسم المستخدم",
